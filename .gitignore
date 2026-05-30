@@ -1,0 +1,78 @@
+# =======================
+# Environment Variables
+# =======================
+.env
+.env.*
+!.env.example
+
+# =======================
+# Logs
+# =======================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =======================
+# Node / Frontend
+# =======================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# =======================
+# Python / Backend
+# =======================
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# =======================
+# Heavy GeoSpatial / ML Files
+# (do NOT commit these — host them separately)
+# =======================
+*.tif
+*.tiff
+*.pth
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# =======================
+# Pre-generated Tiles & Data
+# (regenerated on deployment)
+# =======================
+public/data/
+public/tiles/
+resultant_predictions_by_year/
+Temporal Change/
+backend/
+Code_space_colab/
+
+# =======================
+# Backend temp outputs
+# =======================
+backend/output_*.tif
+backend/dummy.tif
+
+# =======================
+# Editor & OS Files
+# =======================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
